@@ -1,0 +1,7 @@
+<class_libraries>
+  <library path="mppi_sacbf_controller">
+    <class type="nav2_mppi_sacbf_controller::MPPISACBFController" base_class_type="nav2_core::Controller">
+      <description>MPPI-SACBF Controller for Nav2</description>
+    </class>
+  </library>
+</class_libraries>

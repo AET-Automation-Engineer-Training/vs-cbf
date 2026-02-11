@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rur_detailed_description</name>
+  <version>0.0.0</version>
+  <description>The rur_detailed_description package</description>
+
+  <maintainer email="pranshutople@gmail.com">Pranshu Tople</maintainer>
+  <license>MIT</license>
+
+  <url type="website">https://www.youtube.com/PranshuTople</url>
+  <url type="emanual">https://youtube.com/playlist?list=PLFnCFnTZNyU8-omA_VFztWfeFn2gCyY4_</url>
+
+  <!-- Dành cho ROS 2 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Nếu bạn có file launch hoặc xacro -->
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>rclpy</exec_depend> <!-- nếu có launch file python -->
+
+  <export>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path="${prefix}/.." />  </export>
+</package>

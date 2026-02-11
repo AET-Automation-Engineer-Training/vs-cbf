@@ -1,0 +1,6 @@
+<library path="nav2_mpc_cbf_controller_plugin">
+  <class name="nav2_mpc_cbf_controller::MpcCbfPlanner"
+         type="nav2_mpc_cbf_controller::MpcCbfPlanner"
+         base_class_type="nav2_core::Controller"/>
+</library>
+

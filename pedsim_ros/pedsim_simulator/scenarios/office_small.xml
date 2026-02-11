@@ -1,0 +1,101 @@
+<welcome>
+
+  <waypoint id="O1" x="-2" y="-1.5" r="0.1" />
+  <waypoint id="O2" x="-2" y="0.5" r="0.1" />
+  <waypoint id="O3" x="-2" y="2.5" r="0.1" />
+
+  <waypoint id="I1" x="3.5" y="-1.5" r="0.1" />
+  <waypoint id="I2" x="3.5" y="0.5" r="0.1" />
+  <waypoint id="I3" x="3.5" y="2.5" r="0.1" />
+
+  <agent x="0" y="-1.5" n="1" dx="1.0" dy="1.0" vmax="0.4">
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+   <addwaypoint id="O1" />
+   <addwaypoint id="I1" />
+  </agent>
+
+  <agent x="0" y="0.5" n="1" dx="1.0" dy="1.0" vmax="0.6">   
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+   <addwaypoint id="O2" />
+   <addwaypoint id="I2" />
+  </agent>
+
+  <agent x="0" y="2.5" n="1" dx="1.0" dy="1.0" vmax="0.5">
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+   <addwaypoint id="O3" />
+   <addwaypoint id="I3" />
+  </agent>
+
+  
+</welcome>

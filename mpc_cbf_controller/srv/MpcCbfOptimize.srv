@@ -1,0 +1,7 @@
+geometry_msgs/PoseStamped current_pose
+geometry_msgs/PoseStamped goal_pose
+nav_msgs/Path reference_path
+geometry_msgs/PoseArray predicted_obstacles
+---
+float64 v
+float64 w
